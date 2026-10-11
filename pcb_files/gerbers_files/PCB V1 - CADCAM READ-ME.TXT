@@ -1,0 +1,53 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout 'PCB V1.LYT'.
+CADCAM generated at 11:36:27 on domingo, 08 de marzo de 2020.
+
+File List
+---------
+Top Copper              : PCB V1 - CADCAM Top Copper.TXT
+Bottom Copper           : PCB V1 - CADCAM Bottom Copper.TXT
+Top Silk Screen         : PCB V1 - CADCAM Top Silk Screen.TXT
+Top Solder Resist       : PCB V1 - CADCAM Top Solder Resist.TXT
+Bottom Solder Resist    : PCB V1 - CADCAM Bottom Solder Resist.TXT
+Top SMT Paste Mask      : PCB V1 - CADCAM Top SMT Paste Mask.TXT
+Bottom SMT Paste Mask   : PCB V1 - CADCAM Bottom SMT Paste Mask.TXT
+Mechanical 1            : PCB V1 - CADCAM Mechanical 1.TXT
+Drill                   : PCB V1 - CADCAM Drill.TXT
+
+Photoplotter Setup
+------------------
+Format: RS274X, ASCII, 2.4, imperial, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height
+
+D10	CIRCLE	D=40th                                      DRAW
+D11	CIRCLE	D=20th                                      DRAW
+D12	CIRCLE	D=25th                                      DRAW
+D13	CIRCLE	D=30th                                      FLASH
+D14	DIL	W=100th               H=60th                FLASH
+D15	SQUARE	S=80th                                      FLASH
+D16	CIRCLE	D=100th                                     FLASH
+D17	SMT	W=50th                H=40th                FLASH
+D18	CIRCLE	D=8th                                       DRAW
+D19	SMT	W=80th                H=80th                FLASH
+D70	CIRCLE	D=50th                                      FLASH
+D71	DIL	W=120th               H=80th                FLASH
+D20	SMT	W=100th               H=100th               FLASH
+D21	CIRCLE	D=130th                                     FLASH
+D22	SMT	W=70th                H=60th                FLASH
+
+NC Drill Setup
+--------------
+Format: ASCII, 2.4, imperial, absolute, eob=<CR><LF>, no zero suppression.
+Notes:  Tool sizes are diameters. Layer sets are in brackets - 0=TOP, 15=BOTTOM, 1-14=INNER.
+
+T01	15th (0-15)
+T02	30th (0-15)
+T03	40th (0-15)
+T04	60th (0-15)
+
+
+[END OF FILE]
